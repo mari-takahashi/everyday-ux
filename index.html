@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	<!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -31,8 +31,9 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#3ab6a2', '#dacb48', '#9d3f57', '#3f9d69','#d09f52'],
-				anchors: ['statement', 'service', 'profile', 'works', 'contact'],
+			    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 				menu: '#menu',
+				css3: 'true',
 				scrollingSpeed: 1000
 			});
 		});
@@ -40,21 +41,29 @@
 </head>
 <body>
 
-<header>
-</header>
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">HOME</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">SERVICE</a></li>
+    <li data-menuanchor="thirdPage"><a href="#thirdPage">PROFILE</a></li>
+    <li data-menuanchor="fourthPage"><a href="#fourthPage">WORKS</a></li>
+    <li data-menuanchor="lastPage"><a href="#lastPage">CONTACT</a></li>
+</ul>
 
 <div id="fullpage">
-	<section class="section">
+	<section id="section0" class="section active">
 		<h1>MARI TAKAHASHI</h1>
 		<p>A Web Designer,UX Designer (Human Centered Design Specialist), and Service Designer based in Tokyo. 
 	</p>
 	</section>
 
-	<section class="section">
+	<section id="section1" class="section">
 		<h2>SERVICE</h2>
 		<div>
+			<img src="images/pcmobiledesign.png" alt="">
 			<p>PC/MOBILE WEBSITE,APP DESIGN</p>
+			<img src="images/uxdesign.png" alt="">
 			<p>UX DESIGN,USER RESEARCH</p>
+			<img src="images/servicedesign.png" alt="">
 			<p>SERVICE DESIGN,PDCA KAIZEN</p>
 		</div>
 		<hr>
@@ -64,8 +73,9 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section id="section2" class="section">
 		<h2>PROFILE</h2>
+		<img src="images/profile.png" alt="">
 		<h3>MARI TAKAHASHI | 高橋 真理</h3>
 		<p>1986年生まれ。幼少期・思春期に通算9年間をスペイン、メキシコ、アメリカ、日本の4カ国で過ごす。趣味は漫画とイラストづくり。将来の夢は漫画家。総合大学に入学するも、ものづくりへの想いを諦められず、カナダへ1年間アート留学。
 	大学卒業後は株式会社メンバーズに入社。大手カメラメーカー、メガバンク、地方銀行など国内大手企業のWebをクリエイティブ中心に支援。2011年に株式会社メンバーズ子会社のコネクトスター社に参画し、自社サービスのプロデュースや開発に従事。その中でUXデザインの重要性を感じ、「ユーザーを知る」ノウハウを蓄積。
@@ -73,25 +83,38 @@
 	2015年4月より独立／フリーランス。HCD-Net認定 人間中心設計スペシャリスト。TOEIC915点。英検準1級。</p>
 	</section>
 
-	<section class="section">
+	<section id="section3" class="section">
 		<h2>WORKS</h2>
 		<p>COMING SOON...!</p>
 		<p>個別に対応いたします。お問い合わせください。</p>
 		<hr>
 		<h3>AVAILABLE ON SLIDESHARE!</h3>
+
+		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/sMBmChDhcpZ5w" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/ux1-36855537" title="明日からデキるUXデザイン#1講義編" target="_blank">明日からデキるUXデザイン#1講義編</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
+
+		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/JPseORc205eWAO" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/ux-slideshare" title="明日からデキるUXデザイン #2ワークショップ編" target="_blank">明日からデキるUXデザイン #2ワークショップ編</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
+
+		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/3brQxIw0JoAswF" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/20130724-slideshare" title="企業アプリのマーケティング活用事例（UXデザインによるアプリ企画）" target="_blank">企業アプリのマーケティング活用事例（UXデザインによるアプリ企画）</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
 	</section>
 
-	<section class="section">
+	<section id="section4" class="section">
 		<h2>CONTACT</h2>
 		<p>CONTACT IS ALWAYS WELCOMED!</p>
 		<p>お気軽にご連絡ください</p>
 		<p>mari@everyday-ux.com</p>
+		<div>
+			<a href="https://www.facebook.com/mari.takahashi.211" target="_blank"><img src="images/icon-facebook.png" alt=""></a>
+			<a href="https://twitter.com/__mari" target="_blank"><img src="images/icon-twitter.png" alt=""></a>
+			<a href="https://instagram.com/__mari/" target="_blank"><img src="images/icon-instagram.png" alt=""></a>
+			<a href="http://www.slideshare.net/MariTakahashi/presentations" target="_blank"><img src="images/icon-slideshare.png" alt=""></a>
+			<a href="http://jp.linkedin.com/in/MariTakahashi211" target="_blank"><img src="images/icon-linkedin.png" alt=""></a>
+		</div>
 	</section>
 </div>
 
-<footer>
+<footer id="footer">
 	<p>©2015, mari takahashi</p>
-	<p><a href="#">contact</a>
+	<p><a href="#">contact</a></p>
 </footer>
 
 <!-- SCRIPTS -->
