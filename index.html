@@ -31,7 +31,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#3ab6a2', '#dacb48', '#9d3f57', '#3f9d69','#d09f52'],
-			    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+			    anchors: ['home', 'service', 'profile', 'works', 'contact'],
 				menu: '#menu',
 				css3: 'true',
 				scrollingSpeed: 1000
@@ -41,13 +41,15 @@
 </head>
 <body>
 
-<ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">HOME</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage">SERVICE</a></li>
-    <li data-menuanchor="thirdPage"><a href="#thirdPage">PROFILE</a></li>
-    <li data-menuanchor="fourthPage"><a href="#fourthPage">WORKS</a></li>
-    <li data-menuanchor="lastPage"><a href="#lastPage">CONTACT</a></li>
-</ul>
+<nav>
+	<ul id="menu">
+	    <li data-menuanchor="home" class="active"><a href="#home">HOME</a></li>
+	    <li data-menuanchor="service"><a href="#service">SERVICE</a></li>
+	    <li data-menuanchor="profile"><a href="#profile">PROFILE</a></li>
+	    <li data-menuanchor="works"><a href="#works">WORKS</a></li>
+	    <li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
+	</ul>
+</nav>
 
 <div id="fullpage">
 	<section id="section0" class="section active layout-section layout-alignleft">
@@ -61,68 +63,82 @@
 		<div class="layout-top">
 			<div class="layout-column layout-column3">
 				<img src="images/pcmobiledesign.png" alt="">
-				<p class="module-subtitle">PC/MOBILE WEBSITE, </br>APP DESIGN</p>
+				<p class="module-textstronger">PC/MOBILE WEBSITE, </br>APP DESIGN</p>
 			</div>
 			<div class="layout-column layout-column3">
 				<img src="images/uxdesign.png" alt="">
-				<p class="module-subtitle">UX DESIGN, </br>USER RESEARCH</p>
+				<p class="module-textstronger">UX DESIGN, </br>USER RESEARCH</p>
 			</div>
 			<div class="layout-column layout-column3">
 				<img src="images/servicedesign.png" alt="">
-				<p class="module-subtitle">SERVICE DESIGN, </br>PDCA KAIZEN</p>
+				<p class="module-textstronger">SERVICE DESIGN, </br>PDCA KAIZEN</p>
 			</div>
 		</div>
 		<div class="layout-clear">
 			<span class="module-border module-border-yellow"></span>
 			<h3>AND MORE...</h3>
-			<p class="module-text">AGILE, PROJECT MANEGEMENT, UX COACH/EDUCAITON, PLANNING,TRANSLATION (JPtoEN, ENtoJP), ENGLISH WRITING</p>
+			<p class="module-text">AGILE, PROJECT MANEGEMENT, UX COACH/EDUCAITON, PLANNING, </br>TRANSLATION (JPtoEN, ENtoJP), ENGLISH WRITING</p>
 		</div>
 	</section>
 
 	<section id="section2" class="section layout-section">
 		<h2>PROFILE</h2>
-		<img src="images/profile.png" alt="">
-		<h3>MARI TAKAHASHI | 高橋 真理</h3>
-		<p class="module-text">1986年生まれ。幼少期・思春期に通算9年間をスペイン、メキシコ、アメリカ、日本の4カ国で過ごす。趣味は漫画とイラストづくり。将来の夢は漫画家。総合大学に入学するも、ものづくりへの想いを諦められず、カナダへ1年間アート留学。
-	大学卒業後は株式会社メンバーズに入社。大手カメラメーカー、メガバンク、地方銀行など国内大手企業のWebをクリエイティブ中心に支援。2011年に株式会社メンバーズ子会社のコネクトスター社に参画し、自社サービスのプロデュースや開発に従事。その中でUXデザインの重要性を感じ、「ユーザーを知る」ノウハウを蓄積。
-	2013年からは自社サービス開発のノウハウを受託開発に転換すべく再びメンバーズへ。大手製薬会社、大手飲料メーカーのコミュニティやスマホアプリをアジャイル開発で継続的に支援。前年比KPI2.5倍の成果を創出。7年間で小〜中規模Web構築、自社サービス開発、UXデザイン、アジャイル開発、GAを用いた分析と改善施策立案、新規施策提案、プロジェクトリーダーなど多岐に渡り経験を積む。
-	2015年4月より独立／フリーランス。HCD-Net認定 人間中心設計スペシャリスト。TOEIC915点。英検準1級。</p>
+		<div class="layout-alignleft">
+			<div class="layout-column layout-column2left layout-left">
+				<img src="images/profile.png" alt="">
+			</div>
+			<div class="layout-column layout-column2right layout-right">
+				<h3>MARI TAKAHASHI　高橋 真理</h3>
+				<p class="module-text module-textjp">1986年生まれ。幼少期・思春期に通算9年間をスペイン、メキシコ、アメリカ、日本の4カ国で過ごす。趣味は漫画とイラストづくり。将来の夢は漫画家。総合大学に入学するも、ものづくりへの想いを諦められず、カナダへ1年間アート留学。</br>
+			大学卒業後は株式会社メンバーズに入社。大手カメラメーカー、メガバンク、地方銀行など国内大手企業のWebをクリエイティブ中心に支援。2011年に株式会社メンバーズ子会社のコネクトスター社に参画し、自社サービスのプロデュースや開発に従事。その中でUXデザインの重要性を感じ、「ユーザーを知る」ノウハウを蓄積。
+			2013年からは自社サービス開発のノウハウを受託開発に転換すべく再びメンバーズへ。大手製薬会社、大手飲料メーカーのコミュニティやスマホアプリをアジャイル開発で継続的に支援。前年比KPI2.5倍の成果を創出。7年間で小〜中規模Web構築、クリエイティブコンセプト立案とデザイン制作、自社サービス開発、UXデザイン、アジャイル開発、GAを用いた分析と改善施策立案、新規施策提案、プロジェクトリーダーなど多岐に渡り経験を積む。</br>
+			2015年4月より独立／フリーランス。HCD-Net認定 人間中心設計スペシャリスト。TOEIC915点。英検準1級。</p>
+			</div>
+		</div>
 	</section>
 
 	<section id="section3" class="section layout-section">
 		<h2>WORKS</h2>
-		<p>COMING SOON...!</p>
-		<p>個別に対応いたします。お問い合わせください。</p>
-		<hr>
-		<h3>AVAILABLE ON SLIDESHARE!</h3>
-
-		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/sMBmChDhcpZ5w" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/ux1-36855537" title="明日からデキるUXデザイン#1講義編" target="_blank">明日からデキるUXデザイン#1講義編</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
-
-		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/JPseORc205eWAO" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/ux-slideshare" title="明日からデキるUXデザイン #2ワークショップ編" target="_blank">明日からデキるUXデザイン #2ワークショップ編</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
-
-		<iframe src="http://www.slideshare.net/slideshow/embed_code/key/3brQxIw0JoAswF" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/MariTakahashi/20130724-slideshare" title="企業アプリのマーケティング活用事例（UXデザインによるアプリ企画）" target="_blank">企業アプリのマーケティング活用事例（UXデザインによるアプリ企画）</a> </strong> from <strong><a href="//www.slideshare.net/MariTakahashi" target="_blank">Mari Takahashi</a></strong> </div>
+		<div class="layout-top layout-mb60">
+			<p class="module-text">COMING SOON...!</p>
+			<p class="module-text">個別に対応いたします。お問い合わせください。</p>
+		</div>
+		<div>
+			<span class="module-border module-border-green"></span>
+			<h3>AVAILABLE ON SLIDESHARE!</h3>
+			<div class="layout-column layout-column3">
+				<iframe src="http://www.slideshare.net/slideshow/embed_code/key/sMBmChDhcpZ5w" width="425" height="280" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+			</div>
+			<div class="layout-column layout-column3">
+				<iframe src="http://www.slideshare.net/slideshow/embed_code/key/JPseORc205eWAO" width="425" height="280" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+			</div>
+			<div class="layout-column layout-column3">
+				<iframe src="http://www.slideshare.net/slideshow/embed_code/key/3brQxIw0JoAswF" width="425" height="280" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+			</div>
+		</div>
 	</section>
 
 	<section id="section4" class="section layout-section">
 		<h2>CONTACT</h2>
-		<p>CONTACT IS ALWAYS WELCOMED!</p>
-		<p>お気軽にご連絡ください</p>
-		<p>mari@everyday-ux.com</p>
+		<div class="layout-top">
+			<p class="module-text module-textstronger">CONTACT IS ALWAYS WELCOMED!</p>
+			<p class="module-text module-textstronger">お気軽にご連絡ください</p>
+			<p class="module-text module-textstrongest">mari@everyday-ux.com</p>
+		</div>
 		<div>
-			<a href="https://www.facebook.com/mari.takahashi.211" target="_blank"><img src="images/icon-facebook.png" alt=""></a>
-			<a href="https://twitter.com/__mari" target="_blank"><img src="images/icon-twitter.png" alt=""></a>
-			<a href="https://instagram.com/__mari/" target="_blank"><img src="images/icon-instagram.png" alt=""></a>
-			<a href="http://www.slideshare.net/MariTakahashi/presentations" target="_blank"><img src="images/icon-slideshare.png" alt=""></a>
-			<a href="http://jp.linkedin.com/in/MariTakahashi211" target="_blank"><img src="images/icon-linkedin.png" alt=""></a>
+			<a href="https://www.facebook.com/mari.takahashi.211" target="_blank"><img src="images/icon-facebook.png" alt="" class="layout-mr30"></a>
+			<a href="https://twitter.com/__mari" target="_blank"><img src="images/icon-twitter.png" alt="" class="layout-mr30"></a>
+			<a href="https://instagram.com/__mari/" target="_blank"><img src="images/icon-instagram.png" alt="" class="layout-mr30"></a>
+			<a href="http://www.slideshare.net/MariTakahashi/presentations" target="_blank"><img src="images/icon-slideshare.png" alt="" class="layout-mr30"></a>
+			<a href="http://jp.linkedin.com/in/MariTakahashi211" target="_blank"><img src="images/icon-linkedin.png" alt="" class="layout-mr30"></a>
 		</div>
 	</section>
+
 </div>
 
 <footer id="footer" class="layout-footer">
-	<div>
-		<p class="module-footercopyright">©2015, mari takahashi</p>
-		<p class="module-footercontact"><a href="#">contact</a></p>
-	</	div>
+	<p class="module-footercopyright">©2015, mari takahashi</p>
+	<p class="module-footercontact"><a class="module-footercontact" href="mailto:mari@everyday-ux.com">contact</a></p>
 </footer>
 
 <!-- SCRIPTS -->
