@@ -28,7 +28,7 @@ img {
 
 /* LAYOUT */
 .layout-section {
-	padding: 20px 70px;
+	padding: 0 70px;
 	text-align: center;
 }
 
@@ -78,9 +78,11 @@ img {
 .layout-mb80 {
 	margin-bottom: 80px;
 }
-
-.layout-mb50 {
-	margin-bottom: 50px;
+.layout-mb60 {
+	margin-bottom: 60px;
+}
+.layout-mb40 {
+	margin-bottom: 40px;
 }
 
 .layout-mb30 {
@@ -90,7 +92,6 @@ img {
 .layout-mb20 {
 	margin-bottom: 20px;
 }
-
 .layout-mb10 {
 	margin-bottom: 10px;
 }
@@ -111,12 +112,12 @@ img {
 
 .module-textjp {
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", Meiryo, "メイリオ", sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 140%;
 	text-align: justify;
 }
 .module-texten {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 140%;
 }
 
@@ -129,6 +130,9 @@ img {
 	font-weight: 600;
 }
 
+.module-smallh3 {
+	font-size: 15px;
+}
 .module-border {
 	border-top: 1px solid;
 	display: block;
