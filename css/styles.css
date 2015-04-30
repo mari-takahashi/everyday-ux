@@ -1,5 +1,5 @@
 /* BASE */
-@import url(sanitize.css);
+@import url(libs/sanitize.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200,100);
 
 body {
