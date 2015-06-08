@@ -218,7 +218,7 @@ img {
 	/* BASE */
 
 	h1 {
-		font-size: 50px;
+		font-size: 48px;
 	}
 
 	h2 {
@@ -227,6 +227,11 @@ img {
 
 	h3 {
 		margin-bottom: 15px;
+		line-height: 1.3;
+	}
+
+	img {
+		margin-bottom: 10px;
 	}
 
 	/* LAYOUT */
@@ -261,11 +266,19 @@ img {
 
 	.layout-sp1row {
 		display: inline-block;
-		width: 80px;
+		width: 40px;
+	}
+
+	.layout-spmb20 {
+		margin-bottom: 20px;
 	}
 
 	.layout-spmb30 {
 		margin-bottom: 30px;
+	}
+
+	.layout-spmr10 {
+		margin-right: 10px;
 	}
 
 	.layout-footer {
@@ -275,15 +288,17 @@ img {
 	/* MODULE */
 	
 	.module-headline {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.module-text {
 		font-size: 18px;
+		line-height: 1.3;
 	}
 
 	.module-textstronger {
 		font-size: 20px;
+		line-height: 1.3;
 	}
 
 	.module-textjp {
@@ -311,7 +326,7 @@ img {
 
 @media screen and (max-width: 640px) {
   .layout-slideshare {
-  	padding-bottom: 75%;
+  	padding-bottom: 98%;
   	width: 100%;
   }
 } 
